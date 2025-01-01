@@ -1,0 +1,20 @@
+.service-item{
+  border-radius: 10px;
+  transition: transform .2s;
+  background-color: #51ceed27;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+  min-height: 450px;
+  max-height: max-content;
+}
+
+.service-item:hover{
+  border: 1px solid #51ceedb4;
+    box-shadow: 0px 0px 7px #51CFED;
+    border-radius: 10px;
+    transform: scale(1.04);
+    max-height: max-content;
+}
+.detailInfo{
+  color:black;
+}
+
