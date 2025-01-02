@@ -14,7 +14,6 @@ import { RealtimeDataProcessingComponent } from './solutions/realtime-data-proce
 import { ThreeDGisComponent } from './solutions/three-d-gis/three-d-gis.component';
 import { RemoteSensingComponent } from './solutions/remote-sensing/remote-sensing.component';
 import { GeospatialDataScienceComponent } from './solutions/geospatial-data-science/geospatial-data-science.component';
-
 import { ServiceListComponent } from './solutions/service-list/service-list.component';
 
 export const routes: Routes = [
@@ -39,7 +38,6 @@ export const routes: Routes = [
         {path:'remote-sensing',component:RemoteSensingComponent},
         {path:'geospatialdata-science',component:GeospatialDataScienceComponent},
         {path:'service-lists',component:ServiceListComponent},
-        
 
       ]
   },
