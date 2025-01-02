@@ -38,7 +38,8 @@ export const routes: Routes = [
         {path:'3d-gis',component:ThreeDGisComponent},
         {path:'remote-sensing',component:RemoteSensingComponent},
         {path:'geospatialdata-science',component:GeospatialDataScienceComponent},
-        {path:'service-lists',component:ServiceListComponent}
+        {path:'service-lists',component:ServiceListComponent},
+        
 
       ]
   },

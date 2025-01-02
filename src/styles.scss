@@ -4,3 +4,20 @@
 
 
 }
+
+.service_detail_img{
+  position: relative;
+  top: 30%;
+  height:auto;
+  width: 85%;
+  margin-left:50px ;
+}
+
+@media (max-width: 750PX) {
+  .service_detail_img{
+    position: relative;
+    top: 10%;
+    height:auto;
+    width: 80%;
+  }
+ }
