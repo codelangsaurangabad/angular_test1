@@ -15,6 +15,8 @@ import { ThreeDGisComponent } from './solutions/three-d-gis/three-d-gis.componen
 import { RemoteSensingComponent } from './solutions/remote-sensing/remote-sensing.component';
 import { GeospatialDataScienceComponent } from './solutions/geospatial-data-science/geospatial-data-science.component';
 import { ServiceListComponent } from './solutions/service-list/service-list.component';
+import { FooterComponent } from './footer/footer.component';
+import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
   {path:'',redirectTo:'home',pathMatch:'full'},
@@ -41,5 +43,7 @@ export const routes: Routes = [
 
       ]
   },
+  {path:'footer',component:FooterComponent},
+  {path:'contact',component:ContactComponent}
 
 ];
