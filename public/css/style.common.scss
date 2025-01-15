@@ -1,0 +1,10 @@
+.animated-heading {
+  color: #333;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: transform 1s ease-in, opacity 1s ease-in;
+}
+.animated-heading.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
