@@ -17,6 +17,7 @@ import { GeospatialDataScienceComponent } from './solutions/geospatial-data-scie
 import { ServiceListComponent } from './solutions/service-list/service-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
+import { DirectorDeskComponent } from './director-desk/director-desk.component';
 
 export const routes: Routes = [
   {path:'',redirectTo:'home',pathMatch:'full'},
@@ -44,6 +45,7 @@ export const routes: Routes = [
       ]
   },
   {path:'footer',component:FooterComponent},
-  {path:'contact',component:ContactComponent}
+  {path:'contact',component:ContactComponent},
+  {path:'directordesk',component:DirectorDeskComponent}
 
 ];
