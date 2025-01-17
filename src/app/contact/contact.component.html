@@ -1,43 +1,56 @@
-<h1>Contact Us</h1>
+<div class="container-xxl container-quote py-5 " #contactus id="contactus">
 
-<div class="row">
-    <div class="col-6">
-        
-        <form>
-            <div class="row" >
-                <div class="col-4">
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                </div>
-                <div class="col-6">
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                </div>
-            </div>
-            <div class="row" >
-                <div class="col-4">
-                    <input type="tel" id="phone" name="phone" placeholder="Enter your mobile number" required>
-                </div>
-                <div class="col-6">
-                    <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
-                </div>
-            </div>
-            <div class="row" >
-                <div class="col-12" >
-                    <textarea id="message" name="message" rows="5"  placeholder="Enter your message" required></textarea>
-                </div>
-            </div>
-            <button type="submit">Send Message</button>
-        </form>
-    </div>
-    <div class="col-6">
+  <div class="container homecontactDetails py-5">
+      <div class="row g-5 align-items-center">
+        <small class="text-secondary heroSlogan contactheroSlogan  ">Geo technologies help recreate historical landscapes to study past civilizations.</small>
+          <div class="col-md-5 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
+              <h5 class="mb-4 headTItle contactheadTitle">Have Something to Share?</h5>
 
-        <h2>Company Contact Information</h2>
-        <p><strong>Phone:</strong> +1-234-567-890</p>
-        <p><strong>Email:</strong> infocompany.com</p>
-        <p><strong>Address:</strong> 123 Main Street, City, Country</p>
-
-        <h2>Our Location</h2>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509404!2d144.96305761531888!3d-37.81627944202112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577dc2e99b2a196!2s123%20Main%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sus!4v1613982138673!5m2!1sen!2sus"
-            allowfullscreen="" loading="lazy"></iframe>
-    </div>
+              <div class="">
+                <a href="">
+                  <h6 class="mb-1 headTItle contactheadTitle"><mat-icon class="px-1">place</mat-icon> Our Office</h6>
+                  <p class="detailInfo">Jyoti Nagar,Aurangabad</p>
+                </a>
+                <hr>
+                <a href="">
+                  <h6 class="mb-1 headTItle contactheadTitle"><mat-icon  class="px-1">call</mat-icon> Call Us</h6>
+                  <a href="tel:+919096244262"><p class="detailInfo">{{contact}}</p></a>
+                </a>
+                <hr>
+                <a href="">
+                  <h6 class="headTItle contactheadTitle "><mat-icon >email</mat-icon>Mail Us</h6>
+                <a href="mailto:flyviewghis@gmail.com" class="detailInfo">{{email}}</a>
+                </a>
+                <hr>
+              </div>
+              <iframe class="mapFunction" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3752.472059736364!2d75.32811577522541!3d19.862279181511038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDUxJzQ0LjIiTiA3NcKwMTknNTAuNSJF!5e0!3m2!1sen!2sin!4v1727633058599!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-md-7 col-sm-12 queryForm">
+              <div class="queryForm text-center p-5 wow fadeIn" data-wow-delay="0.5s">
+                  <form>
+                      <div class="row g-3">
+                          <div class="col-12 col-sm-6 focusInput">
+                              <input type="text" class="form-control border-0 inputField" placeholder="Your Name" style="height: 55px;">
+                          </div>
+                          <div class="col-12 col-sm-6 focusInput">
+                              <input type="email" class="form-control border-0 inputField" placeholder="Your Email" style="height: 55px;">
+                          </div>
+                          <div class="col-12 col-sm-6 focusInput">
+                              <input type="text" class="form-control border-0 inputField" placeholder="Your Mobile" style="height: 55px;">
+                          </div>
+                          <div  class="col-12 col-sm-6 focusInput ">
+                            <input type="text" class="form-control border-0 inputField" placeholder="Subject" style="height: 55px;">
+                          </div>
+                          <div class="col-12 inputField">
+                              <textarea class="inputField_message form-control border-0 formField" placeholder="Message" style="padding:10px 10px ;"></textarea>
+                          </div>
+                          <div class="col-12">
+                              <button class="btn btn-primary  py-3 formSubmit" type="submit">Submit</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
